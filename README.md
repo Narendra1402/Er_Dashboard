@@ -1,5 +1,7 @@
 # 🏥 Hospital Emergency Room Dashboard – Power BI Project
 
+[🎥Explanation video](https://www.youtube.com/watch?v=ngxfRrj4gu0&t)
+
 This Power BI project provides an interactive and insightful dashboard for analyzing hospital emergency room performance. It enables healthcare stakeholders to monitor key metrics such as patient volume, wait times, satisfaction scores, department referrals, and demographic distributions.
 
 <img width="809" height="496" alt="Capture1" src="https://github.com/user-attachments/assets/0abbc03d-6ba4-4e0e-a348-af0a773541db" />
