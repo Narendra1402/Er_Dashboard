@@ -1,22 +1,101 @@
-# Er_Dashboard
+# 🏥 Hospital Emergency Room Dashboard – Power BI Project
 
-🎉 Excited to Share My Latest Project! 🎉
+This Power BI project provides an interactive and insightful dashboard for analyzing hospital emergency room performance. It enables healthcare stakeholders to monitor key metrics such as patient volume, wait times, satisfaction scores, department referrals, and demographic distributions.
 
-![Cap](https://github.com/user-attachments/assets/7a6848ba-2733-48b9-8ddf-29c21e32f40c)
+<img width="809" height="496" alt="Capture1" src="https://github.com/user-attachments/assets/0abbc03d-6ba4-4e0e-a348-af0a773541db" />
+
+> **Consolidated View** – Executive-level snapshot of hospital ER performance
 
 
-I recently had the opportunity to work on an Emergency Room Dashboard project, leveraging the full power of Power BI, Power Query, and Canvas. 🚑📊 This experience truly highlighted the transformative impact of data visualization and analytics in critical environments like healthcare.
-Here's what I achieved with this project:
 
-✅ Power Query: Efficiently transformed and cleaned raw hospital data, ensuring accurate insights for decision-making.
-✅ Canvas: Designed a user-friendly and interactive dashboard interface tailored for real-time monitoring and operational efficiency.
-✅ Power BI: Integrated advanced analytics and stunning visualizations to track key metrics like patient wait times, satisfaction scores, referral rates, and peak busy periods.
+## 📌 Project Highlights
 
-💡 Key Outcomes:
+- **Tool Used:** Power BI  
+- **Data Type:** Patient Admission Records  
+- **Visualization Style:** Dark theme with responsive, slicer-based filtering  
+- **Dashboard Tabs:**
+  - Consolidated View
+  - Monthly View
+  - Patient Details
 
-1.Enhanced understanding of patient flow and demographics.
-2.Streamlined operational processes for better resource allocation.
-3.Actionable insights to improve patient care and satisfaction.
 
-This project not only strengthened my technical skills but also reinforced the importance of data-driven decisions in optimizing workflows and outcomes in high-pressure environments like Emergency Rooms.
-I'm incredibly proud of the impact this dashboard can have in improving healthcare delivery. If you're working on similar data analytics initiatives or have insights to share, I'd love to connect and discuss!
+## 📊 Consolidated View – Executive Summary
+
+| Metric              | Value       | Change from Last Month |
+|---------------------|-------------|-------------------------|
+| 🧑‍⚕️ No. of Patients | 471         | ↑ 1.1%                  |
+| ⏱️ Avg. Wait Time    | 34.1 Min    | ↓ 2.9%                  |
+| 😊 Satisfaction Score| 5.31        | ↑ 8.2%                  |
+| 🧾 Patient Referrals | 205         | ↓ 6.2%                  |
+
+### 💡 Key Insights
+
+- **Peak Traffic:** Tuesday is the busiest day with most patients arriving between 07:00–18:00
+- **Gender Split:** Nearly equal — 244 Male vs 227 Female
+- **Race-Based Ratings:** White patients report highest satisfaction (6.05), Native American lowest (4.17)
+- **Top Referral Departments:**
+  - None (56.5% of cases, avg wait 34.96 mins)
+  - General Practice
+  - Orthopedics
+
+
+
+<img width="807" height="498" alt="Capture2" src="https://github.com/user-attachments/assets/59f57cc7-c61b-43d6-967e-1d48b7111044" />
+
+> **Monthly View** – Deeper breakdown by age, gender, race, department, and admission timing
+
+
+
+## 📅 Monthly View – Patient Flow & Timeliness
+
+- **Admitted:** 52.4%  
+- **Not Admitted:** 47.6%
+- **Patients Seen Within 30 Mins:** Only 44%  
+- **Most Common Age Groups:** 60–69 and 70–79  
+- **Race with Highest Visits:** White (140 patients)
+
+### ⏰ Time Distribution
+
+| Hour        | Peak Days        |
+|-------------|------------------|
+| 07:00–18:00 | Mon to Fri       |
+| 🏆 **Busiest Day**: Tuesday |
+
+
+
+## 📋 Patient Details – Raw Data Drilldown
+
+<img width="807" height="495" alt="Capture3" src="https://github.com/user-attachments/assets/5300845a-ef20-4824-8418-010454d6f417" />
+
+- Searchable, filterable patient-level data:
+  - ID, Name, Gender, Age
+  - Race, Department, Admit Date
+  - Wait Time, Admission Status
+
+
+
+## 📈 Suggested Improvements
+
+- **Patient Load** is increasing; hospital should prepare for higher patient volumes.
+- **Wait Time Optimization** is crucial as over half the patients are not seen within 30 mins.
+- **Tuesdays and afternoon hours** are most congested — suggest staffing boosts accordingly.
+- **Racial Satisfaction Gap** exists — deeper root-cause analysis needed for equitable service.
+- **Referral Accuracy** can be improved since a large number of patients fall under None category.
+
+
+
+## 🛠 Tech Stack
+
+- **Data Preparation:** Power Query
+- **Visualization:** Power BI Desktop
+- **Data Model:** Star schema with filters on Date, Department, and Demographics
+
+
+
+
+## 🔗 Connect With Me  
+Feel free to explore more of my projects and reach out:  
+- [LinkedIn](https://www.linkedin.com/in/narendrasingh1402)
+- [YouTube](https://www.youtube.com/@Analyst_Hive)  
+- [Portfolio](https://narendra1402.github.io/)
+
